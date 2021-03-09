@@ -95,9 +95,14 @@ class Game {
 
         if (gameWon) {
             overlay.className = 'win';
+            const lose = document.querySelector('.win');
+            lose.style.backgroundImage = 'linear-gradient(to right, #92fe9d 0%, #00c9ff 100%)';
             h1.textContent = 'Congratulations! You\'ve won!'
+            
         } else {
             overlay.className = 'lose';
+            const lose = document.querySelector('.lose');
+            lose.style.backgroundImage = 'linear-gradient(to top, #feada6 0%, #f5efef 100%)';
             h1.textContent = 'Sorry, better luck next time.'    
         }
       

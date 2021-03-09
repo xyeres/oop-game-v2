@@ -6,6 +6,15 @@ const qwerty = document.querySelector('#qwerty');
 const phraseList = document.querySelector('#phrase');
 let game;
 
+// Set colors and asthetic
+const body = document.querySelector('body');
+body.style.backgroundImage = 'linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%)';
+body.style.backgroundColor = '#e0c3fc';
+
+const resetBtn = document.querySelector('#btn__reset');
+resetBtn.style.backgroundColor = '#fcfcfc';
+
+
 newGameBtn.addEventListener('click', (e) => {
     /* 
         Clean up from previous game 
@@ -35,6 +44,10 @@ qwerty.addEventListener('click', (e) => {
         game.handleInteraction(button)
     }
 })
+// Set colors on overlay start screen
+let overlay = document.querySelector('#overlay').style;
+overlay.backgroundImage = 'linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)'
+let title = document.querySelector('.title').style.color = '#686868';
 
 document.addEventListener('keydown', (e) => {
     let key = e.code;
