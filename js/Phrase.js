@@ -41,7 +41,7 @@ class Phrase {
     * Displays passed letter on screen after a match is found
     * @param (string) letter - Letter to display
     */
-    showMatchedLetter(letter)  {
+    showMatchedLetter(letter) {
         const matchingLetters = document.querySelectorAll(`.${letter}`);
         matchingLetters.forEach(element => {
             element.classList.remove('hide')
