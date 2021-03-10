@@ -47,16 +47,16 @@ class Game {
         if (this.activePhrase.phrase.search(button.textContent) === -1) {
             button.classList.add('wrong');
             this.removeLife();
+            
         } else {
             button.classList.add('chosen');
             this.activePhrase.showMatchedLetter(button.textContent);
-        }
-        let win = this.checkForWin();
+            let win = this.checkForWin();
 
-        if (win) {
-            this.gameOver(win)
+            if (win) {
+                this.gameOver(win)
+            }
         }
-        
     }
     /**
     * Increases the value of the missed property
