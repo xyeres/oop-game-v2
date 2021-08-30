@@ -1,4 +1,4 @@
-# oop-game-v2
+# Class-based JavaScript Word Game
 
 To test: 
 - Download files and open index.html in your browser.
