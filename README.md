@@ -2,7 +2,7 @@
 
 To test: 
 - Use the app on [GitHub Pages](https://xyeres.github.io/oop-game-v2/)
-- Download files and open index.html in your browser.
+- Or download files and open index.html in your browser.
 
 Additional features include: 
 - More robust key bindings, making sure that any non-alpha key strokes are ignored via regex and key code bindings.
