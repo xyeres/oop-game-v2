@@ -10,5 +10,5 @@ Additional features include:
 - If you are at the overlay screen (first boot or at a win/loss screen) you can simply hit the `Enter` key to start a new game
 - I have customized the background color on the load screen, game screen, win and loss screen to make it feel more snazzy
 
-![](./phrase-hunter-screenshot.jpg)
+![](./ph-screenshot.jpg)
 
