@@ -1,6 +1,6 @@
 # Class-based JavaScript Word Game
 
-To test: 
+To play: 
 - Use the app on [GitHub Pages](https://xyeres.github.io/oop-game-v2/)
 - Or download files and open index.html in your browser.
 
